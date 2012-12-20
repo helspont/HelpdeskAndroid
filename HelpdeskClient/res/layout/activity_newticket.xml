@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/crateTicket"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        
+        android:layout_margin="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nice5"
+        android:textSize="40dp"
+        android:text="Create Ticket" />
+
+    <TextView
+        android:id="@+id/usernameNewTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:layout_margin="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Username"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="245dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_toLeftOf="@+id/crateTicket"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="30"
+        android:minLines="6"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:textSize="20dp" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usernameNewTicket"
+        android:layout_below="@+id/usernameNewTicket"
+        android:text="Title of new ticket:"
+        android:padding="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:layout_toLeftOf="@+id/crateTicket"
+        android:layout_toRightOf="@+id/textView1"
+        android:inputType="text"
+        android:padding="15dp" >
+
+        <requestFocus />
+
+    </EditText>
+
+</RelativeLayout>

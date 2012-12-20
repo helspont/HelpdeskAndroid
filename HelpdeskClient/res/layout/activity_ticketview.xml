@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <ListView
+         android:id="@android:id/list"
+         android:layout_width="fill_parent"
+         android:layout_height="250dp"
+         android:layout_above="@+id/commentText"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/titleView"
+         android:layout_marginLeft="25dp"
+         android:layout_toLeftOf="@+id/waitButton"
+         android:drawSelectorOnTop="false"
+         android:scrollbars="horizontal" >
+
+     </ListView>
+
+     <TextView
+         android:id="@+id/titleView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:padding="5dp"
+         android:layout_margin="10dp"
+         android:text="Title"
+         android:textSize="45dp" />
+	
+     <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_alignBottom="@+id/titleView"
+            android:layout_alignParentLeft="true"
+            android:background="#17a2d1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+     <Button
+        android:id="@+id/commentButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/nice5"
+        android:textSize="25dp"
+        android:text="Send Comment" />
+
+     <EditText
+         android:id="@+id/commentText"
+         android:layout_width="fill_parent"
+         android:layout_height="100dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/closeButton"
+         android:layout_marginLeft="25dp"
+         android:layout_toLeftOf="@+id/commentButton"
+         android:ems="10"
+         android:gravity="top|left"
+         android:inputType="textMultiLine"
+         android:lines="8"
+         android:maxLines="30"
+         android:minLines="6"
+         android:scrollbars="vertical"
+         android:singleLine="false"
+         android:textSize="20dp" >
+
+         <requestFocus />
+
+    </EditText>
+
+     <Button
+         android:id="@+id/waitButton"
+         android:layout_width="300dp"
+         android:layout_height="100dp"
+         android:layout_above="@+id/closeButton"
+         android:layout_alignLeft="@+id/closeButton"
+         android:layout_marginBottom="5dp"
+         android:background="@drawable/nice5"
+         android:textSize="25dp"
+         android:text="Set Wait Status" />
+
+     <Button
+         android:id="@+id/closeButton"
+         android:layout_width="300dp"
+         android:layout_height="100dp"
+         android:layout_above="@+id/commentButton"
+         android:layout_alignLeft="@+id/commentButton"
+         android:layout_marginBottom="5dp"
+         android:background="@drawable/nice5"
+         android:textSize="25dp"
+         android:text="Close Ticket" />
+
+</RelativeLayout>

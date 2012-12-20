@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, QuestionnariesActivity!</string>
+    <string name="app_name">HelpdeskAndroid</string>
+    <string name="username">Username: </string>
+    <string name="password">Password: </string>
+    <string name="welcome">Welcom to HeldeskAndroid Aplication</string>
+    <string name="sub">Pro vstup zadejte username a password</string>
+    <string name="enter">Vstupte</string>
+    <string name="home">home</string>
+    <string name="refresh">refresh</string>
+    <string name="connectionStatus">Wi-fi signal get lost or is weak please get closer to the AP</string>
+    <string name="kill">kill</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="agent">Android/Desktop</string>
+    <string name="answerA1">   ANO </string>
+    <string name="answerB1">   NE </string>
+    <string name="answerC1">   NEVÍM </string>
+    <string name="question1">Řekl Vám někdy lékař, že máte diabetes (cukrovku) nebo hraniční diabetes (cukrovku)?</string>
+    <string name="question2">Míváte někdy pálení, brnění nebo pocit znecitlivění celých nohou či chodidel?</string>
+    <string name="next">Další</string>
+    <string name="back">Zpět</string>
+    <string name="redcap">Enter to RedCap Browser</string>
+    <string name="med">http://gibo11-payalmed-primary.hostgator.co.in/</string>
+    <string name="demo">Enter DEMO Questionnaire</string>
+    <string name="questionnaires">Enter to list of Questionnaires</string>
+    <string name="adduser_string">Přidání nového uživatele</string>
+    <string name="adduser_button">Přidat</string>
+    <string name="adduser_username">Username: </string>
+    <string name="adduser_psswd">Password: </string>
+    <string name="adduser_confpsswd">Confirm: </string>
+    <string name="adduser_sub">Pro založení nového uživatele zadejte uživatelské jméno a heslo a helso potvrďte</string>
+    <string name="choose_txt">Vyberte prosím kategorii </string>
+    <string name="choose_description_pat">Choose questionnaires for patiens</string>
+    <string name="choose_description_doc">Choose questionnaires for doctors</string>
+    <string name="quest_selection">Vyberte jeden z dotazníků</string>
+    <string name="yes">ANO  </string>
+    <string name="no">NE  </string>
+    <string name="notknow">NEVÍM  </string>
+    <string name="var1">1x za měsíc nebo nikdy</string>
+    <string name="var2">2 &#8211; 3x za měsíc</string>
+    <string name="var3">1 &#8211; 2x do týdne</string>
+    <string name="var4">1 &#8211; 3x do týdne</string>
+    <string name="var5">5 &#8211; 6x do týdne</string>
+    <string name="var6">Každý den</string>
+    <string name="var1int">&lt; 1 hodina</string>
+    <string name="var2int">1 &#8211; 2 hodiny</string>
+    <string name="var3int">3 &#8211; 4 hodin</string>
+    <string name="var4int">5 &#8211; 6 hodin</string>
+    <string name="var5int">7 &#8211; 8 hodin</string>
+    <string name="var6int">&gt; 8 hodin  </string>
+    <string name="send">Odeslat odpovědi  </string>
+    <string name="thx">Děkujeme Vám za vyplnění dotazníku \nTlačítkem \"Odeslat odpovědi\"  nám odevzdáte dotazník </string>
+    <string name="users">Seznam uživatelů  </string>
+    <string name="add">Přidat  </string>
+    <string name="delete">Odebrat </string>
+    <string name="header">Vyberte jednu z odpovědí </string>
+    <string name="logout">Odhlásit </string>
+    <string name="menu_settings">Menu </string>
+    
+    
+    
+</resources>

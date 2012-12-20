@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+            android:id="@+id/categoryView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose category"
+            android:layout_margin="25dp"
+            android:textSize="50dp" />
+    
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#17a2d1"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp" >
+
+        <include
+            android:id="@+id/yes_no"
+            layout="@layout/yes_no" />
+
+        <include
+            android:id="@+id/yes_no_notknow"
+            layout="@layout/yes_no_notknow" />
+
+        <include
+            android:id="@+id/time_distance"
+            layout="@layout/time_distance" />
+
+        <include
+            android:id="@+id/time_interval"
+            layout="@layout/time_interval" />
+
+        
+
+    </ViewFlipper>
+
+</LinearLayout>
