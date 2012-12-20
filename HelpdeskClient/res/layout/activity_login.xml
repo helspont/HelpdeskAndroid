@@ -82,6 +82,10 @@
         android1:layout_below="@+id/textView3"
         android1:ems="10"
         android1:padding="15dp"
-        android1:singleLine="true" />
+        android1:singleLine="true" >
+
+        <requestFocus />
+
+    </EditText>
 
 </RelativeLayout>
